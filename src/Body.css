@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+li {
+    display: inline;
+    padding: 7px;
+    font-family: Oxygen, sans-serif;
+    font-size: 18px;
+}
+
+li:hover {
+    text-decoration: underline;
+    background-color: Gainsboro;
+}
+
+ul {
+    position: relative;
+    left: 6%;
+}

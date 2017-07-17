@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+.App-header {
+  background: url(https://source.unsplash.com/TTrJMhrkoeY/4272×2848);
+  background-position: center;
+  background-size: cover;
+  moz-transform: scaleX(-1);
+  o-transform: scaleX(-1);
+  webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  ms-filter: "FlipH";
+  height: 50px;
+  padding: 20px;
+  color: Ivory;
+  text-align: left;
+}
+
+h1 {
+    moz-transform: scaleX(-1);
+    o-transform: scaleX(-1);
+    webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    ms-filter: "FlipH";
+    font-family: Quicksand, sans-serif;
+    font-size: 3rem;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
